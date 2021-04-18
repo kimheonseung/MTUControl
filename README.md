@@ -1,10 +1,5 @@
-# MTUControl
-
-
-
-
-## Jsoup 사용 및 HTTP 연결시 특정 URL 연결 실패인 경우 MTU 조절하여 connect 하기 위한 유틸
-- 사용 
+### Controlling Maximum Transmission Unit (MTU) with Java Native Library
+- Usage 
 ```java
 /* 빌드 전, 생성자에 네트워크 인터페이스명 기입 필요 */
 public MTUChanger() {
